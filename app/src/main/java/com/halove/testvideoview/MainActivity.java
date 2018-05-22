@@ -157,4 +157,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
+    /**
+     * feature-2
+     * display HelloAndroid
+     * @param view
+     */
+    public void feature2(View view) {
+        if (btnNext.getText().toString().equals("功能2")) {
+            btnNext.setText("");
+        } else {
+            btnNext.setText("");
+        }
+    }
+
+
+    private void feature3(){}
+
 }
