@@ -144,6 +144,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onDestroy();
     }
 
-
+    /**
+     * feature-1
+     * display HelloWorld
+     * @param view
+     */
+    public void feature1(View view) {
+        if (btnComplete.getText().toString().equals("功能1")) {
+            btnComplete.setText("");
+        } else {
+            btnComplete.setText("");
+        }
+    }
 
 }
